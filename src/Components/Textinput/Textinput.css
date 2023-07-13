@@ -1,0 +1,17 @@
+.checkbox {
+    margin: 0px 5px;
+    appearance: none;
+    min-width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: 1px solid hsl(234, 39%, 85%);
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .checkbox:checked {
+    background-image: url("./icon-check.svg"),
+      linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    border-radius: 50%;
+  }
